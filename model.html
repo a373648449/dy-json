@@ -27,6 +27,18 @@
             height: auto;
             margin-bottom: 10px;
         }
+
+        #prev-button,
+        #next-button {
+            display: block;
+            margin: 0 auto;
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -50,7 +62,8 @@
     // Function to fetch data from API and display the results
     function displayModels() {
         const limit = 100;
-        const apiURL = `https://civitai.com/api/v1/models?page=${page}&limit=${limit}`;
+        const apiURL = "https://civitai.com/api/v1/models?page=" + page + "&limit=100";
+
 
         fetch(apiURL)
             .then((response) => response.json())
