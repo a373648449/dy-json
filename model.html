@@ -32,7 +32,7 @@
         #next-button {
             display: block;
             margin: 0 auto;
-            background-color: blue;
+            background-color: #00d9ff;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -59,7 +59,7 @@
     const prevButton = document.querySelector("#prev-button");
     const nextButton = document.querySelector("#next-button");
 
-    // Function to fetch data from API and display the results
+
     function displayModels() {
         const limit = 100;
         const apiURL = "https://civitai.com/api/v1/models?page=" + page + "&limit=100";
@@ -77,6 +77,8 @@
                         const modelImage = document.createElement("img");
                         modelImage.src = item.modelVersions[0].images[0].url;
                         modelItem.appendChild(modelImage);
+
+
 
                         const modelName = document.createElement("h2");
                         modelName.innerText = item.name;
@@ -149,6 +151,8 @@
         page++;
         displayModels();
     }
+
+
 
     displayModels();
 
