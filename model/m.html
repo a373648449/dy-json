@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <title>Model List</title>
+    <style>
+        .search-box {
+            margin-bottom: 20px;
+        }
+
+        .model-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .model-item {
+            width: 300px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .model-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        #prev-button,
+        #next-button {
+            display: block;
+            margin: 0 auto;
+            background-color: #00d9ff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="search-box">
+    <label for="search-id">Search by ID:</label>
+    <input type="text" id="search-id" name="search-id">
+    <button id="search-button">Search</button>
+</div>
+<div class="model-list"></div>
+<button id="prev-button">上一页</button>
+<button id="next-button">下一页</button>
+</body>
+</html>
