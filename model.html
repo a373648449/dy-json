@@ -58,11 +58,11 @@
     const searchInput = document.querySelector("#search-id");
     const prevButton = document.querySelector("#prev-button");
     const nextButton = document.querySelector("#next-button");
-    const apiURL = "https://civitai.com/api/v1/models?page=" + page + "&limit=100";
+
 
     function displayModels() {
         const limit = 100;
-
+        window.apiURL = "https://civitai.com/api/v1/models?page=" + page + "&limit=100";
         fetch(apiURL)
             .then((response) => response.json())
             .then((data) => {
@@ -149,7 +149,7 @@
         displayModels();
     }
 
-
+    // 初始显示模型数据
     displayModels();
 
     searchButton.addEventListener("click", searchModels);
