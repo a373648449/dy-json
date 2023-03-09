@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a22ccb-befd-4087-8917-533e60cbbb04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/post_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/model.html" afterDir="false" />
     </list>
@@ -85,7 +84,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.wb-json">
+  <component name="RunManager" selected="JavaScript 调试.model.html">
     <configuration name="model.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dy-json/model.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -179,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.post_model" />
         <item itemvalue="JavaScript 调试.model.html" />
+        <item itemvalue="Python.post_model" />
         <item itemvalue="Python.BatchRename" />
         <item itemvalue="Python.bachrename" />
         <item itemvalue="Python.wb-json" />
@@ -203,7 +202,7 @@
       <workItem from="1677735956653" duration="4591000" />
       <workItem from="1678067752311" duration="687000" />
       <workItem from="1678264544708" duration="1567000" />
-      <workItem from="1678326618273" duration="1605000" />
+      <workItem from="1678326618273" duration="1886000" />
     </task>
     <servers />
   </component>
