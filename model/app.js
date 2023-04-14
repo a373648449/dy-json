@@ -22,6 +22,7 @@ function displayModels() {
                     modelImage.src = item.modelVersions[0].images[0].url;
                     modelItem.appendChild(modelImage);
 
+
                     const modelName = document.createElement("h2");
                     modelName.innerText = item.name;
                     modelItem.appendChild(modelName);
@@ -41,6 +42,7 @@ function displayModels() {
                 }
             });
         });
+
 }
 
 // Function to filter models by ID
